@@ -1,37 +1,29 @@
-// import { useState, useEffect, useRef } from 'react';
-import './App.module.scss';
-// import { ToastContainer } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
-// import API from './services/API';
+import React from 'react';
+import { Switch, Route, Link } from 'react-router-dom';
+import TodosView from './views/TodosView';
+import CounterView from './views/CounterView';
 
-function App() {
-  //  const [searchQuery, setSearchQuery] = useState('');
+const App = () => (
+  <>
+    <ul>
+      <li>
+        <Link to="/counter">Счётчик</Link>
+      </li>
+      <li>
+        <Link to="/todos">Заметки</Link>
+      </li>
+    </ul>
 
-  // const onLoading = useRef(loading);
+    <Switch>
+      <Route path="/counter">
+        <CounterView />
+      </Route>
 
-  // useEffect(() => {
-  //   if (!searchQuery) {
-  //     return;
-  //   }
-  //   fetchUpdate();
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [searchQuery]);
-
-  // const fetchUpdate = () => {
-  //   setLoading(!onLoading.current);
-
-  //   API.fetchImages(searchQuery, page)
-  //     .then(PixabayImageHins => {
-  //       setPixabayImage([...PixabayImage, ...PixabayImageHins.hits]);
-  //       setPage(prevPage => prevPage + 1);
-  //     })
-  //     .catch(() => setError(`Поиск ${searchQuery} не дал результата`))
-  //     .finally(() => {
-  //       setLoading(onLoading.current);
-  //     });
-  // };
-
-  return <div></div>;
-}
+      <Route path="/todos">
+        <TodosView />
+      </Route>
+    </Switch>
+  </>
+);
 
 export default App;
