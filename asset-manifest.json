@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-template-repository/static/css/main.a76b870f.chunk.css",
+    "main.js": "/react-template-repository/static/js/main.160076d8.chunk.js",
+    "main.js.map": "/react-template-repository/static/js/main.160076d8.chunk.js.map",
+    "runtime-main.js": "/react-template-repository/static/js/runtime-main.b24f7f4e.js",
+    "runtime-main.js.map": "/react-template-repository/static/js/runtime-main.b24f7f4e.js.map",
+    "static/js/2.0207d625.chunk.js": "/react-template-repository/static/js/2.0207d625.chunk.js",
+    "static/js/2.0207d625.chunk.js.map": "/react-template-repository/static/js/2.0207d625.chunk.js.map",
+    "static/js/3.9a5f5985.chunk.js": "/react-template-repository/static/js/3.9a5f5985.chunk.js",
+    "static/js/3.9a5f5985.chunk.js.map": "/react-template-repository/static/js/3.9a5f5985.chunk.js.map",
+    "index.html": "/react-template-repository/index.html",
+    "static/css/main.a76b870f.chunk.css.map": "/react-template-repository/static/css/main.a76b870f.chunk.css.map",
+    "static/js/2.0207d625.chunk.js.LICENSE.txt": "/react-template-repository/static/js/2.0207d625.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b24f7f4e.js",
+    "static/js/2.0207d625.chunk.js",
+    "static/css/main.a76b870f.chunk.css",
+    "static/js/main.160076d8.chunk.js"
+  ]
+}
